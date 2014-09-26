@@ -1,0 +1,324 @@
+
+/* Ico Moon */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?sjx8ua');
+	src:url('../fonts/icomoon.eot?#iefixsjx8ua') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?sjx8ua') format('woff'),
+		url('../fonts/icomoon.ttf?sjx8ua') format('truetype'),
+		url('../fonts/icomoon.svg?sjx8ua#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Ico Moon Stars */
+
+@font-face {
+	font-family: 'icomoon-star';
+	src:url('../fonts-star/icomoon.eot?-izyk0n');
+	src:url('../fonts-star/icomoon.eot?#iefix-izyk0n') format('embedded-opentype'),
+		url('../fonts-star/icomoon.woff?-izyk0n') format('woff'),
+		url('../fonts-star/icomoon.ttf?-izyk0n') format('truetype'),
+		url('../fonts-star/icomoon.svg?-izyk0n#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/* Utilidades */
+
+.u-title{
+	color: #7192c6;
+	border-bottom: 2px dashed #7192c6;
+	font-weight: normal;
+	font-size: 1.5em;
+	padding-bottom: .5em;
+	text-align: center;
+}
+
+.u-quora{
+	margin-left: 1em; 
+}
+
+.u-badges{
+	margin: 1em 0 .5em 0;
+}
+
+.u-skillDissapear{
+	display: none;
+}
+
+
+/* Main Menu */
+
+.MainMenu{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.75em;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.MainMenu-list{
+	margin: 0;
+	padding: 0; 
+}
+
+.MainMenu-item{
+	display: inline-block;
+}
+
+.MainMenu-yoIcon:before{
+	font-family: "icomoon";
+	content: "\e600  ";
+}
+
+.MainMenu-perfilIcon:before{
+	font-family: "icomoon";
+	content: "\e602  ";
+}
+
+.MainMenu-skillsIcon:before{
+	font-family: "icomoon";
+	content: "\e605  ";
+}
+
+.MainMenu-projectsIcon:before{
+	font-family: "icomoon";
+	content: "\e603  ";
+}
+
+.MainMenu-contactIcon:before{
+	font-family: "icomoon";
+	content: "\e601  ";
+}
+
+
+.MainMenu-link{
+	color: white;
+	text-decoration: none;
+	line-height: 3.75em;
+	margin-right: 1.5em;
+}
+
+/* Header */
+
+.Header{
+	margin-top: 3.75em;
+	background-image: url('../images/portada.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 1.2em 0;
+}
+
+.MainMenu-yoIcon:hover{
+	color: #7192c6;
+}
+
+.MainMenu-perfilIcon:hover{
+	color: #7192c6;
+}
+
+.MainMenu-skillsIcon:hover{
+	color: #7192c6;
+}
+
+.MainMenu-projectsIcon:hover{
+	color: #7192c6;
+}
+
+.MainMenu-contactIcon:hover{
+	color: #7192c6;
+}
+
+.Header-imageContainer{
+	margin: 0; 
+}
+
+.Header-image{
+	border: 5px solid white;
+	border-radius: 50%;
+}
+
+.Header-name,
+.Header-link{
+	color: white;
+}
+
+.Header-link{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.Header-name{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0;
+}
+
+/* Profile */
+
+.Profile{
+	text-align: center;
+}
+
+.Profile-link{
+	display: inline-block;
+	/*background: orange;*/
+	/*color: white;*/
+	/*text-decoration: none;*/
+	/*padding: .5em 1em; 
+	border-radius: 2em;
+	margin-right: .5em;*/
+}
+
+.Profile-medium{
+	border-radius: 50%;
+	border: 1.7px solid gray;
+}
+
+/* Skills */
+
+.Skills{
+	text-align: center;
+	margin-top: 3.5em;
+}
+
+.Skills-html5{
+	/*z-index: -1;*/
+	/*background: blue;*/
+}
+.Skills-css3{
+	/*z-index: -1;*/
+	/*background: red;*/
+}
+
+
+
+.Skills-star:after{
+	font-family: "icomoon-star";
+	color: #eded4b;
+	content: "\e600";
+}
+
+.Skills-starDisabled:after{
+	font-family: "icomoon-star";
+	color: #b5afaf;
+	content: "\e600";}
+
+.Skills-starMargin{
+	margin-top: 0;
+}
+
+/* Work */
+
+.Work{
+	margin-top: 3.5em;
+	text-align: center;
+}
+
+.Work-item{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+
+.Work-imageContainer{
+	margin: 0;
+}
+
+.Work-description{
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;
+}
+
+/* Footer */
+
+.Footer{
+	background-image: url('../images/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 2em 0;
+	text-align: center;
+	display: none; /* por el momento que no se vea el footer*/
+}
+
+.Footer-form{
+	text-align: center;
+	display: inline-block;
+}
+
+.Footer-left{
+	display: inline-block;
+	width: 32em;
+	text-align: center;
+	vertical-align: top;
+}
+
+.Footer-title{
+	color: white;
+}
+
+.Footer-formInput,
+.Footer-textArea{
+	background: white;
+	border: none;
+	display: block;
+	border-radius: 2em;
+	padding: .5em;
+	margin: 0 auto 1em;
+}
+
+.Footer-textArea{
+	resize: none;
+}
+
+.Footer-button{
+	background: orange;
+	color: white;
+	border-radius: 1em;
+	border: none;
+	padding: .5em 1em;
+}
+
+/* Footer 2 */
+
+.Footer2{
+	font-size: .7em;
+	text-align: center;
+}
+
+.Footer2-link{
+	text-decoration: none;
+	color: #F75265;
+}
+
+.Footer2-link:hover{
+	color: white;
+	background: #F75265;
+}
+
+.Footer2-center{
+	margin-bottom: 0em;
+}
+
+.Footer2-copyright{
+	margin-top: 0;
+}
+
+.Footer2-icon:after{
+	font-family: "icomoon";
+	content: " \e604";
+}
+
+
+
