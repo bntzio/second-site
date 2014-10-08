@@ -1,0 +1,159 @@
+/* ICOMOON */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?8az5zj');
+	src:url('../fonts/icomoon.eot?#iefix8az5zj') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?8az5zj') format('woff'),
+		url('../fonts/icomoon.ttf?8az5zj') format('truetype'),
+		url('../fonts/icomoon.svg?8az5zj#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.Footer-iconCode:before {
+	font-family: "icomoon";
+	content: "\e608  ";
+}
+.Footer-iconHeart:after {
+	font-family: "icomoon";
+	content: " \e601";
+}
+
+
+/* UTILITIES */
+
+.u-temporaryHidden{
+	display: none;
+}
+.u-decorator{
+	color: #F6BE33;
+}
+
+.u-decorator2{
+	text-decoration: none;
+	font-weight: 900;
+	color: white;
+}
+
+.u-decorator3{
+	font-weight: 900;
+}
+
+.u-decorator2:hover{
+	text-decoration: underline;
+}
+
+/* BODY */
+
+body{
+	font-family: "Open Sans", sans-serif;
+}
+
+
+/* HEADER */
+
+.Header-imageContainer{
+	margin-top: 10em;
+	text-align: center;
+}
+
+.Header-image{
+	border: none;
+	border-radius: 50%;
+	width: 250px;
+}
+
+.Header-description{
+	font-weight: normal;
+	margin-top: 2em;
+	margin-bottom: 6em;
+	text-align: center;
+	color: #636363;
+}
+
+/* SOCIAL PAGE */
+
+.Social-page{
+	background: #d6d6d6;
+	padding: .2em;
+	margin: 4.2em 0 4.2em 0;
+}
+
+.Social-list{
+	text-align: center;
+}
+
+.Social-item{
+	display: inline-block;
+	padding: 0 1em 0 1em;
+	font-size: 1.5em;
+}
+
+.Social-itemLink{
+	color:white;
+	text-decoration: none;
+	line-height: 2.75em;
+}
+
+.Social-itemLink:hover{
+	color: #636363;
+	/*text-decoration: underline;*/
+}
+
+/* ABOUT PAGE */
+
+.About-page{
+	font-family: Lato, sans-serif;
+}
+
+.About-pageTitle{
+	text-align: center;
+	display: none;
+}
+
+/* PROJECT PAGE */
+
+.Project-page{
+	font-family: Lato, sans-serif;
+}
+
+.Project-imageContainer{
+	
+}
+
+/* PROJECT PAGE - CONEKTEC */
+
+.Project-conektec{
+	
+}
+
+.Project-conektecDescription{
+
+}
+
+/* PROJECT PAGE - LAIKA */
+
+.Project-laika{
+	
+}
+
+.Project-laikaDescription{
+
+}
+
+
+/* FOOTER PAGE */
+
+.Footer-page{
+	background: #F6BE33;
+	text-align: center;
+	color: white;
+}
+
+.Footer-item{
+	font-weight: 900;
+	padding: 2em 0 2em 0;
+	margin-bottom: 0em;
+	margin-top: 20em;
+}
