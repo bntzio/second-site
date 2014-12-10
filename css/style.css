@@ -45,9 +45,51 @@
 	font-size: 2em;
 }
 
+/* red */
+.u-decorator5{
+	background: #F89493;
+	color: white;
+	font-weight: bold;
+}
+
+/* black */
+.u-decorator6{
+	background: #636363;
+	color: white;
+	font-weight: bold;
+}
+
+/* blue */
+.u-decorator7{
+	background: #8096D9; 
+	color: white;
+	font-weight: bold;
+}
+
 .u-decorator2:hover{
 	text-decoration: underline;
 }
+
+.u-colorDecoratorPurple{
+	color: #D393F8;
+}
+
+.u-colorDecoratorBlue{
+	color: #80BDD9;
+}
+
+.u-colorDecoratorGreen{
+	color: #A0F09A;
+}
+
+.u-colorDecoratorYellow{
+	color: #D9C580;
+}
+
+.u-colorDecoratorRed{
+	color: #F88A78;
+}
+
 
 /* BODY */
 
@@ -59,8 +101,21 @@ body{
 /* HEADER */
 
 .Header-imageContainer{
-	margin-top: 10em;
+	margin-top: 5em;
+	margin-bottom: 5em;
 	text-align: center;
+}
+
+.Header-imageContainerProjectPhotoLeft{
+	margin-top: 5em;
+	margin-bottom: 5em;
+	text-align: left;
+}
+
+.Header-imageContainerProjectPhotoRight{
+	margin-top: 5em;
+	margin-bottom: 5em;
+	text-align: right;
 }
 
 .Header-image{
@@ -120,7 +175,14 @@ body{
 .About-pageDescription{
 	text-align: center;
 	font-size: 2em;
+	color: #636363;
 }
+
+.About-pageDescriptionContent{
+	text-align: center;
+	font-size: 1.5em;
+}
+
 
 /* PROJECT PAGE */
 
@@ -129,8 +191,32 @@ body{
 }
 
 .Project-imageContainer{
-	
+	width: 100%;
+	height: auto;
+	overflow: hidden;
 }
+
+.img-contentPhotos {
+	width: 40%;
+	height: auto;
+}
+
+.figcaption-contentPhotosDescriptionLeft {
+	text-align: center;
+	width: 40%;
+	float: left;
+	position: relative;
+	margin-right: 1.5em;
+}
+
+.figcaption-contentPhotosDescriptionRight {
+	text-align: center;
+	width: 40%;
+	float: right;
+	position: relative;
+	margin-left: 1.5em;
+}
+
 
 /* PROJECT PAGE - CONEKTEC */
 
